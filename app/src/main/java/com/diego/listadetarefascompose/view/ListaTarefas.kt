@@ -95,7 +95,12 @@ fun ListaTarefas(
                 tarefa = "Ir no mercado",
                 descricao = "xvbxcvbxcvxcbc",
                 prioridade = 3
-            )
+            ),
+            Tarefa(
+                tarefa = "Ir na loja",
+                descricao = "dfghdfghfdghfdg",
+                prioridade = 2
+            ),
         )
 
         LazyColumn(
