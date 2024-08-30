@@ -40,11 +40,11 @@ import com.diego.listadetarefascompose.components.CaixaDeTexto
 import com.diego.listadetarefascompose.ui.theme.BLACK
 import com.diego.listadetarefascompose.ui.theme.Purple700
 import com.diego.listadetarefascompose.ui.theme.RADIO_BUTTON_GREEN_DISABLED
-import com.diego.listadetarefascompose.ui.theme.RADIO_BUTTON_GREEN_ENABLED
+import com.diego.listadetarefascompose.ui.theme.RADIO_BUTTON_GREEN_SELECTED
 import com.diego.listadetarefascompose.ui.theme.RADIO_BUTTON_RED_DISABLED
-import com.diego.listadetarefascompose.ui.theme.RADIO_BUTTON_RED_ENABLED
+import com.diego.listadetarefascompose.ui.theme.RADIO_BUTTON_RED_SELECTED
 import com.diego.listadetarefascompose.ui.theme.RADIO_BUTTON_YELLOW_DISABLED
-import com.diego.listadetarefascompose.ui.theme.RADIO_BUTTON_YELLOW_ENABLED
+import com.diego.listadetarefascompose.ui.theme.RADIO_BUTTON_YELLOW_SELECTED
 import com.diego.listadetarefascompose.ui.theme.WHITE
 
 
@@ -146,7 +146,7 @@ fun SalvarTarefa(
                     },
                     colors = RadioButtonDefaults.colors(
                         unselectedColor = RADIO_BUTTON_GREEN_DISABLED,
-                        selectedColor = RADIO_BUTTON_GREEN_ENABLED
+                        selectedColor = RADIO_BUTTON_GREEN_SELECTED
                     )
                 )
                 RadioButton(
@@ -156,7 +156,7 @@ fun SalvarTarefa(
                     },
                     colors = RadioButtonDefaults.colors(
                         unselectedColor = RADIO_BUTTON_YELLOW_DISABLED,
-                        selectedColor = RADIO_BUTTON_YELLOW_ENABLED
+                        selectedColor = RADIO_BUTTON_YELLOW_SELECTED
                     )
                 )
 
@@ -167,7 +167,7 @@ fun SalvarTarefa(
                     },
                     colors = RadioButtonDefaults.colors(
                         unselectedColor = RADIO_BUTTON_RED_DISABLED,
-                        selectedColor = RADIO_BUTTON_RED_ENABLED
+                        selectedColor = RADIO_BUTTON_RED_SELECTED
                     )
                 )
             }
