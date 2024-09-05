@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "322777847309",
+    "project_id": "lista-de-tarefas-compose-515bf",
+    "storage_bucket": "lista-de-tarefas-compose-515bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322777847309:android:0ac0148368f5922a492744",
+        "android_client_info": {
+          "package_name": "com.diego.listadetarefascompose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTLEYOHQbT8524AsWrLk2PbSnETwiRYKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

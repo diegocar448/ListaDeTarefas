@@ -28,6 +28,7 @@ import com.diego.listadetarefascompose.model.Tarefa
 import com.diego.listadetarefascompose.ui.theme.BLACK
 import com.diego.listadetarefascompose.ui.theme.Purple700
 import com.diego.listadetarefascompose.ui.theme.WHITE
+import com.google.firebase.Firebase
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -36,6 +37,8 @@ import com.diego.listadetarefascompose.ui.theme.WHITE
 fun ListaTarefas(
     navController: NavController
 ){
+
+
     Scaffold(
         topBar = {
             TopAppBar(
